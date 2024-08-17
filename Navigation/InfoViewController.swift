@@ -1,10 +1,3 @@
-//
-//  InfoViewController.swift
-//  Navigation
-//
-//  Created by Лимарев Егор on 17.08.2024.
-//
-
 import UIKit
 
 class InfoViewController: UIViewController {
@@ -13,6 +6,9 @@ class InfoViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         title = "Info"
+
+    
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Close", style: .done, target: self, action: #selector(closeTapped))
 
         let showAlertButton = UIButton(type: .system)
         showAlertButton.setTitle("Show Alert", for: .normal)
@@ -27,6 +23,11 @@ class InfoViewController: UIViewController {
         ])
     }
 
+    @objc func closeTapped() {
+        // Закрытие модального представления
+        dismiss(animated: true, completion: nil)
+    }
+
     @objc func showAlert() {
         let alert = UIAlertController(title: "Alert", message: "This is an alert message.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
@@ -38,4 +39,3 @@ class InfoViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
 }
-
