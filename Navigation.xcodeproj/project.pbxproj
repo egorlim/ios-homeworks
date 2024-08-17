@@ -14,6 +14,8 @@
 		C5D382F72C70EE2500AB2FBF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C5D382F62C70EE2500AB2FBF /* Base */; };
 		C5D382FF2C70F67600AB2FBF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D382FE2C70F67600AB2FBF /* FeedViewController.swift */; };
 		C5D383012C70F69B00AB2FBF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D383002C70F69B00AB2FBF /* ProfileViewController.swift */; };
+		C5D383032C70F7D900AB2FBF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D383022C70F7D900AB2FBF /* Post.swift */; };
+		C5D383052C70F7EA00AB2FBF /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D383042C70F7EA00AB2FBF /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C5D382F82C70EE2500AB2FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D382FE2C70F67600AB2FBF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C5D383002C70F69B00AB2FBF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C5D383022C70F7D900AB2FBF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C5D383042C70F7EA00AB2FBF /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				C5D382F82C70EE2500AB2FBF /* Info.plist */,
 				C5D382FE2C70F67600AB2FBF /* FeedViewController.swift */,
 				C5D383002C70F69B00AB2FBF /* ProfileViewController.swift */,
+				C5D383022C70F7D900AB2FBF /* Post.swift */,
+				C5D383042C70F7EA00AB2FBF /* PostViewController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			files = (
 				C5D382EF2C70EE2400AB2FBF /* ViewController.swift in Sources */,
 				C5D382EB2C70EE2400AB2FBF /* AppDelegate.swift in Sources */,
+				C5D383052C70F7EA00AB2FBF /* PostViewController.swift in Sources */,
 				C5D382FF2C70F67600AB2FBF /* FeedViewController.swift in Sources */,
+				C5D383032C70F7D900AB2FBF /* Post.swift in Sources */,
 				C5D382ED2C70EE2400AB2FBF /* SceneDelegate.swift in Sources */,
 				C5D383012C70F69B00AB2FBF /* ProfileViewController.swift in Sources */,
 			);
